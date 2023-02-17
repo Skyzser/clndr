@@ -1,0 +1,34 @@
+#error404 {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    line-height: 3em;
+    padding: 50px 0;
+}
+
+#error404 #error-text {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+#error404 #error-text img {
+    margin: 85px auto 20px;
+    height: 342px;
+}
+
+#error404 #error-text span {
+    position: relative;
+    font-size: 3.3em;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+#error404 #error-text p.p-a {
+    font-size: 19px;
+    margin: 50px 0 75px 0;
+}
